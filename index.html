@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevStore</title>
     <link rel="stylesheet" href="Css/style.css">
-    <link rel="stylesheet" href="Css/carrinho.css">
-    <link rel="stylesheet" href="Css/carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
 </head>
 <body>
-     <header>
+    <header>
         <div class="carousel">
             <div class="carousel-item active">
                 <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Setup de desenvolvedor moderno" class="carousel-img">
@@ -55,7 +55,7 @@
             <div class="search-container">
                 <input type="text" class="search-input" id="product-search" placeholder="Pesquise por produtos, marcas ou categorias..." aria-label="Pesquisar produtos">
                 <button class="search-button" id="search-btn">
-                    <i class="fas fa-search"></i> Buscar
+                    <i class="fas fa-search"></i> <span>Buscar</span>
                 </button>
                 <div id="suggestions-container" class="suggestions-container"></div>
             </div>
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </section>
-        <div class=""></div>
+
         <!-- Seção de Produtos -->
         <section id="products" class="container">
             <h2 class="section-title">Produtos em Destaque</h2>
@@ -112,7 +112,7 @@
                         <div class="product-category">Notebook</div>
                         <h3 class="product-title">Dev Pro X1</h3>
                         <p class="product-description">Notebook com processador i7, 16GB RAM, SSD 512GB e placa de vídeo dedicada</p>
-                        <div class="product-price"> 4.299,00mts</div>
+                        <div class="product-price">4.299,00mts</div>
                         <div class="product-actions">
                             <button class="btn btn-outline">
                                 <i class="far fa-heart"></i> Favoritar
@@ -123,51 +123,50 @@
                         </div>
                     </div>
                 </div>
-                <!-- Card 1 -->
-<div class="product-card">
-    <img src="https://images.unsplash.com/photo-1587202372775-98927b15d43d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-         alt="Headset Gamer DevSound" 
-         class="product-image">
-    <div class="product-info">
-        <div class="product-category">Periférico</div>
-        <h3 class="product-title">Headset DevSound X5</h3>
-        <p class="product-description">
-            Headset com som surround 7.1, microfone com redução de ruído e iluminação RGB ajustável.
-        </p>
-        <div class="product-price">1.299,00mts</div>
-        <div class="product-actions">
-            <button class="btn btn-outline">
-                <i class="far fa-heart"></i> Favoritar
-            </button>
-            <button class="btn btn-primary">
-                <i class="fas fa-shopping-cart"></i> Comprar
-            </button>
-        </div>
-    </div>
-</div>
+                
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1587202372775-98927b15d43d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                         alt="Headset Gamer DevSound" 
+                         class="product-image">
+                    <div class="product-info">
+                        <div class="product-category">Periférico</div>
+                        <h3 class="product-title">Headset DevSound X5</h3>
+                        <p class="product-description">
+                            Headset com som surround 7.1, microfone com redução de ruído e iluminação RGB ajustável.
+                        </p>
+                        <div class="product-price">1.299,00mts</div>
+                        <div class="product-actions">
+                            <button class="btn btn-outline">
+                                <i class="far fa-heart"></i> Favoritar
+                            </button>
+                            <button class="btn btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
 
-<!-- Card 2 -->
-<div class="product-card">
-    <img src="https://images.unsplash.com/photo-1616627986945-d2e67ec86b4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-         alt="Mouse DevClick Pro" 
-         class="product-image">
-    <div class="product-info">
-        <div class="product-category">Periférico</div>
-        <h3 class="product-title">Mouse DevClick Pro</h3>
-        <p class="product-description">
-            Mouse ergonômico com sensor óptico de 16.000 DPI, design leve e botões programáveis para produtividade máxima.
-        </p>
-        <div class="product-price">699,00mts</div>
-        <div class="product-actions">
-            <button class="btn btn-outline">
-                <i class="far fa-heart"></i> Favoritar
-            </button>
-            <button class="btn btn-primary">
-                <i class="fas fa-shopping-cart"></i> Comprar
-            </button>
-        </div>
-    </div>
-</div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1616627986945-d2e67ec86b4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                         alt="Mouse DevClick Pro" 
+                         class="product-image">
+                    <div class="product-info">
+                        <div class="product-category">Periférico</div>
+                        <h3 class="product-title">Mouse DevClick Pro</h3>
+                        <p class="product-description">
+                            Mouse ergonômico com sensor óptico de 16.000 DPI, design leve e botões programáveis para produtividade máxima.
+                        </p>
+                        <div class="product-price">699,00mts</div>
+                        <div class="product-actions">
+                            <button class="btn btn-outline">
+                                <i class="far fa-heart"></i> Favoritar
+                            </button>
+                            <button class="btn btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="product-card">
                     <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Teclado Mecânico" class="product-image">
@@ -175,7 +174,7 @@
                         <div class="product-category">Periférico</div>
                         <h3 class="product-title">Teclado Mecânico RGB</h3>
                         <p class="product-description">Teclado mecânico com switches azuis, iluminação RGB e design ergonômico</p>
-                        <div class="product-price"> 499,00mts</div>
+                        <div class="product-price">499,00mts</div>
                         <div class="product-actions">
                             <button class="btn btn-outline">
                                 <i class="far fa-heart"></i> Favoritar
@@ -186,13 +185,14 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="product-card">
                     <img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Monitor 4K" class="product-image">
                     <div class="product-info">
                         <div class="product-category">Monitor</div>
                         <h3 class="product-title">Monitor UltraWide 34"</h3>
                         <p class="product-description">Monitor curvo 4K com taxa de atualização de 144Hz e tecnologia HDR</p>
-                        <div class="product-price"> 2.899,00mts</div>
+                        <div class="product-price">2.899,00mts</div>
                         <div class="product-actions">
                             <button class="btn btn-outline">
                                 <i class="far fa-heart"></i> Favoritar
@@ -203,13 +203,14 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="product-card">
                     <img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Workstation" class="product-image">
                     <div class="product-info">
                         <div class="product-category">Desktop</div>
                         <h3 class="product-title">Workstation Pro</h3>
                         <p class="product-description">Desktop com processador Ryzen 9, 32GB RAM, SSD 1TB e RTX 4070</p>
-                        <div class="product-price"> 7.599,00mts</div>
+                        <div class="product-price">7.599,00mts</div>
                         <div class="product-actions">
                             <button class="btn btn-outline">
                                 <i class="far fa-heart"></i> Favoritar
@@ -225,7 +226,7 @@
     </main>
 
     <footer id="contact">
-        <div class="footer-content">
+        <div class="footer-content container">
             <div class="footer-column">
                 <h3>DevTech</h3>
                 <p>A melhor loja de tecnologia para desenvolvedores. Oferecemos produtos de alta qualidade para impulsionar sua produtividade e criatividade.</p>
@@ -260,11 +261,12 @@
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2023 DevTech. Todos os direitos reservados.</p>
+            <p>&copy; 2025 DevTech. Todos os direitos reservados.</p>
         </div>
     </footer>
-    <script src="Js/DevStore.Js"></script>
+
+    
+    <script src="Js/script.js"></script>
     <script src="Js/search.js"></script>
-    <script src="Js/nav.js"></script>
 </body>
 </html>
