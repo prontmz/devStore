@@ -475,7 +475,7 @@ section {
 
 .btn-primary {
     background: var(--primary-color);
-    color: white;
+    color: rgb(34, 29, 29);
 }
 
 .btn-primary:hover {
@@ -497,8 +497,8 @@ section {
 
 /* Footer */
 footer {
-    background: var(--text-primary);
-    color: white;
+    background: var(--text-secondary);
+    color: rgb(43, 24, 24);
     margin-top: 4rem;
 }
 
@@ -510,7 +510,7 @@ footer {
 }
 
 .footer-column h3 {
-    color: white;
+    color: rgb(44, 48, 70);
     margin-bottom: 1.5rem;
     font-size: 1.25rem;
 }
@@ -530,7 +530,7 @@ footer {
 }
 
 .footer-column a:hover {
-    color: white;
+    color: rgb(48, 45, 45);
     transform: translateX(5px);
 }
 
