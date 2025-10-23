@@ -817,7 +817,7 @@
             }
         }
 
-        /* Melhorias específicas para telas muito pequenas */
+        
         @media (max-width: 360px) {
             .container {
                 padding: 0 0.8rem;

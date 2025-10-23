@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navLinks.classList.toggle('active');
     });
     
-    // Carousel simples
+    
     let currentSlide = 0;
     const slides = document.querySelectorAll('.carousel-item');
     const totalSlides = slides.length;
