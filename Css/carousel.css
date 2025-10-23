@@ -1,0 +1,55 @@
+/* Responsivo */
+
+/* Para telas até 1024px (laptops menores e tablets grandes) */
+@media (max-width: 1024px) {
+    .product-card {
+        flex: 1 1 calc(33% - 1rem); /* 3 cards por linha */
+    }
+}
+
+/* Para telas até 768px (tablets e mobiles maiores) */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: rgba(0,0,0,0.9);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 1rem;
+        border-radius: 0 0 0 8px;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .product-card {
+        flex: 1 1 calc(50% - 1rem); /* 2 cards por linha */
+    }
+}
+
+/* Para telas até 480px (smartphones) */
+@media (max-width: 480px) {
+    .product-card {
+        flex: 1 1 100%; /* 1 card por linha */
+    }
+
+    .header-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .search-container {
+        flex-direction: column;
+    }
+
+    .search-input,
+    .search-button {
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+    }
+}
