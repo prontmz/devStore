@@ -36,7 +36,7 @@
     // Produtos simulados (poderias ligar ao Firebase mais tarde)
    const allProducts = [
   // ---------- PERIFÉRICOS ----------
-  { name: "Teclado Mecânico RGB", category: "Periférico", price: "499,00mts", img: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80" },
+  {name: "Teclado Mecânico RGB", category: "Periférico", price: "499,00mts", img: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80" },
   { name: "Mouse Gamer DevX", category: "Periférico", price: "350,00mts", img: "https://images.unsplash.com/photo-1621525274904-d9a8b4e6bdf8?auto=format&fit=crop&w=800&q=80" },
   { name: "Headset Surround Pro", category: "Periférico", price: "899,00mts", img: "https://images.unsplash.com/photo-1606220838310-9f1c43c6b89a?auto=format&fit=crop&w=800&q=80" },
   { name: "Webcam Full HD Stream", category: "Periférico", price: "1.299,00mts", img: "https://images.unsplash.com/photo-1590608897129-79da98d15971?auto=format&fit=crop&w=800&q=80" },
@@ -44,23 +44,23 @@
   { name: "Mousepad RGB XL", category: "Periférico", price: "450,00mts", img: "https://images.unsplash.com/photo-1616004655125-5e3b88b9d62b?auto=format&fit=crop&w=800&q=80" },
 
   // ---------- MONITORES ----------
-  { name: "Monitor UltraWide 34\"", category: "Monitor", price: "2.899,00mts", img: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=800&q=80" },
-  { name: "Monitor Curvo 27\" Gamer", category: "Monitor", price: "2.499,00mts", img: "https://images.unsplash.com/photo-1587202372775-98927c04c40b?auto=format&fit=crop&w=800&q=80" },
-  { name: "Monitor 24\" LED Full HD", category: "Monitor", price: "1.699,00mts", img: "https://images.unsplash.com/photo-1593642532871-8b12e02d091c?auto=format&fit=crop&w=800&q=80" },
-  { name: "Monitor 32\" 4K UHD", category: "Monitor", price: "3.499,00mts", img: "https://images.unsplash.com/photo-1587202372729-4f8a6f1d2e3f?auto=format&fit=crop&w=800&q=80" },
-  { name: "Monitor Portátil 15.6\"", category: "Monitor", price: "1.999,00mts", img: "https://images.unsplash.com/photo-1601987077426-c4f7c9e2e09f?auto=format&fit=crop&w=800&q=80" },
+  { name: "Monitor UltraWide 34\"", category: "Monitor", price: "2.899,00mts", img: "Monitor 24 full hd led.jpeg" },
+  { name: "Monitor Curvo 27\" Gamer", category: "Monitor", price: "2.499,00mts", img: "Monitor 32 4k UHD.jpg" },
+  { name: "Monitor 24\" LED Full HD", category: "Monitor", price: "1.699,00mts", img: "Monitor curvo gamer.avif" },
+  { name: "Monitor 32\" 4K UHD", category: "Monitor", price: "3.499,00mts", img: "Monitor prtatil.jpeg" },
+  { name: "Monitor Portátil 15.6\"", category: "Monitor", price: "1.999,00mts", img: "Monitor touch screem.jpg" },
   { name: "Monitor TouchScreen Pro", category: "Monitor", price: "2.799,00mts", img: "https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=800&q=80" },
 
   // ---------- NOTEBOOKS ----------
-  { name: "Notebook Dev Pro X1", category: "Notebook", price: "4.299,00mts", img: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=800&q=80" },
+  { name: "Notebook Dev Pro X1", category: "Notebook", price: "4.299,00mts", img: "Notebook Ultrafino.jpg" },
   { name: "Notebook Ultrafino Xlite", category: "Notebook", price: "3.999,00mts", img: "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&w=800&q=80" },
-  { name: "Notebook Gamer GX700", category: "Notebook", price: "5.899,00mts", img: "https://images.unsplash.com/photo-1610465299998-36e1f47a9173?auto=format&fit=crop&w=800&q=80" },
+  { name: "Notebook Gamer GX700", category: "Notebook", price: "5.899,00mts", img: "Probook3.jpeg" },
   { name: "Notebook Business Pro", category: "Notebook", price: "4.999,00mts", img: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=800&q=80" },
-  { name: "Notebook Compact Air", category: "Notebook", price: "3.699,00mts", img: "https://images.unsplash.com/photo-1603791452906-b4dc4af1dd3a?auto=format&fit=crop&w=800&q=80" },
+  { name: "Notebook Compact Air", category: "Notebook", price: "3.699,00mts", img: "NotstuD.jpeg" },
   { name: "Notebook Estudante", category: "Notebook", price: "2.899,00mts", img: "https://images.unsplash.com/photo-1612178992777-0e78f7b8018c?auto=format&fit=crop&w=800&q=80" },
 
   // ---------- DESKTOPS ----------
-  { name: "Workstation Pro", category: "Desktop", price: "7.599,00mts", img: "https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=800&q=80" },
+  { name: "Workstation Pro", category: "Desktop", price: "7.599,00mts", img: "Desktop all in one.jpeg" },
   { name: "Desktop Gamer Titan", category: "Desktop", price: "6.899,00mts", img: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80" },
   { name: "Desktop Office Slim", category: "Desktop", price: "3.499,00mts", img: "https://images.unsplash.com/photo-1616628188505-8e57e9342f35?auto=format&fit=crop&w=800&q=80" },
   { name: "Desktop All-in-One", category: "Desktop", price: "4.599,00mts", img: "https://images.unsplash.com/photo-1606813902779-3f6e4e5a4caa?auto=format&fit=crop&w=800&q=80" },
